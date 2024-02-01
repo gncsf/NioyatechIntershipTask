@@ -1,0 +1,50 @@
+1.Please report any bug/defect found in the
+screenshot below.
+1-	Kampanya bölümünde görseller tam olarak görünmüyor ve içerikleri anlaşılmıyor.
+2-	Arama çubuğunun içindeki yazı üste kaymış ve okunmuyor.
+3-	Ürünleri eklerken ve sepette ürün artırma ve silme butonu var ama ürün eksiltme butonu yok.
+4-	Bazı ürün isimlerinin tamamı gözükmüyor.
+
+2.Please answer all of the following questions.
+● You are testing the Getir app. When you find a bug in production, how do you manage the process?
+
+1-	Hatayı tekrar üretmeye çalışırım.
+2-	Hatanın gerçekten bir hata mı olduğunu doğrularım.
+3-	Hatanın daha önce başka biri tarafından raporlanıp raporlanmadığını kontrol ederim.
+4-	Hata hakkında elde edebildiğim tüm bilgileri toplarım(hata mesajları, ekran kaydı veya görüntüsü vb.)
+5-	Tüm bilgiler hazır olduktan sonra hatayı rapor ederim.
+6-	Hatanın düzeltilmesi için bir ihtiyaç olup olmadığını kontrol etmek için, raporladıktan sonra da
+ takibini yaparım.
+
+● Onboarding screen will be tested on Getir app. What kind of test plan do you
+create?
+
+1-	Testin amacını ve ne kadar kapsamlı olacağını belirlerim.
+2-	Test senaryolarımı yazarım.
+3-	Hangi platformlarda(işletim sistemi cihaz vb.) test edeceğimi belirlerim.
+4-	Gerçek kullanıcı ortamını test için oluştururum.
+5-	Performans testlerini yaparım.
+6-	UI testlerini yaparım.
+7-	Kullanıcının hatalı girişlerinde nasıl sonuçlar elde edildiğini test ederim.
+8-	Bulunun hatalar ile ilgili bir geri bildirim sistemi oluştururum.
+9-	Tüm test sonuçlarını düzenli olarak belgeler, tüm belgeler ile birlikte bir rapor oluştururum.
+
+
+● What are the latest technological topics you researched?
+
+5G teknolojisi salgındaki izolasyon sürecinde netten sipariş, evden çalışma, tele-toplantı, uzakta eğitim vb.
+ eğilimlerin artması ile yaşanan sıkıntılar karşısında düşük-gecikmeli 5G ağları; ağ güvenilirliği sorunlarını
+ gidermekle kalmayıp tele-sağlık, tele-cerrahi ve acil servis gibi yüksek kapasite gerektiren
+ alanlarda kullanılırken, işletmeler için de akıllı fabrikalar, gerçek zamanlı takip ve yoğun içerikli
+ anlık uç bilgi-işlem hizmetleri gibi ekonomiyi hızlandıran faaliyetleri destekleyip yüksek mobilite maliyetini
+  dengeleyerek mobil hizmetler ekonomisini değiştireceği öngörülmektedir.
+
+● How to use the testing pyramid?
+
+1-	Öncelikle Unit testler yapılır. Yazılımın en küçük birimleri bu şekilde test edilir.
+ En geniş kapsamlı testtir.
+2-	Daha sonra Companent Integration testler yapılır. Farklı bileşenlerin bir arada nasıl çalıştığı test edilir.
+3-	End-to end(E2E) testleri yapılır. En maliyetli testlerdir, tüm bileşenler bir araya getirilerek etkileşimleri
+ test edilir.
+
+
