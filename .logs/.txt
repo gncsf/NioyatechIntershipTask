@@ -1,0 +1,4 @@
+2024-02-01 13:30:21 INFO  GetBreeds:23 - Test  started
+2024-02-01 13:30:21 INFO  GetBreeds:44 - Response result printed
+2024-02-01 13:30:22 INFO  GetBreeds:50 - Assertions have been made
+2024-02-01 13:30:22 INFO  GetBreeds:55 - Test finished

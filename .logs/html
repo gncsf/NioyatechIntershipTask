@@ -1,0 +1,645 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application logs</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Thu Feb 01 12:57:53 EET 2024<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFacts category">requests.GetFacts</td>
+<td>GetFacts.java:23</td>
+<td title="Message">Test  started</td>
+</tr>
+
+<tr>
+<td>625</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFacts category">requests.GetFacts</td>
+<td>GetFacts.java:36</td>
+<td title="Message">Response result printed</td>
+</tr>
+
+<tr>
+<td>1808</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.impl.conn.BasicClientConnectionManager category">org.apache.http.impl.conn.BasicClientConnectionManager</td>
+<td>BasicClientConnectionManager.java:161</td>
+<td title="Message">Get connection for route {s}-&gt;https://catfact.ninja:443</td>
+</tr>
+
+<tr>
+<td>1962</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.impl.conn.DefaultClientConnectionOperator category">org.apache.http.impl.conn.DefaultClientConnectionOperator</td>
+<td>DefaultClientConnectionOperator.java:177</td>
+<td title="Message">Connecting to catfact.ninja:443</td>
+</tr>
+
+<tr>
+<td>2692</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.client.protocol.RequestAddCookies category">org.apache.http.client.protocol.RequestAddCookies</td>
+<td>RequestAddCookies.java:123</td>
+<td title="Message">CookieSpec selected: ignoreCookies</td>
+</tr>
+
+<tr>
+<td>2695</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.client.protocol.RequestAuthCache category">org.apache.http.client.protocol.RequestAuthCache</td>
+<td>RequestAuthCache.java:77</td>
+<td title="Message">Auth cache not set in the context</td>
+</tr>
+
+<tr>
+<td>2697</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.client.protocol.RequestTargetAuthentication category">org.apache.http.client.protocol.RequestTargetAuthentication</td>
+<td>RequestTargetAuthentication.java:80</td>
+<td title="Message">Target auth state: UNCHALLENGED</td>
+</tr>
+
+<tr>
+<td>2698</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.client.protocol.RequestProxyAuthentication category">org.apache.http.client.protocol.RequestProxyAuthentication</td>
+<td>RequestProxyAuthentication.java:89</td>
+<td title="Message">Proxy auth state: UNCHALLENGED</td>
+</tr>
+
+<tr>
+<td>2701</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.impl.client.DefaultHttpClient category">org.apache.http.impl.client.DefaultHttpClient</td>
+<td>DefaultRequestDirector.java:677</td>
+<td title="Message">Attempt 1 to execute request</td>
+</tr>
+
+<tr>
+<td>2704</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.impl.conn.DefaultClientConnection category">org.apache.http.impl.conn.DefaultClientConnection</td>
+<td>DefaultClientConnection.java:274</td>
+<td title="Message">Sending request: GET /facts?max_length=1&amp;limit=1 HTTP/1.1</td>
+</tr>
+
+<tr>
+<td>2706</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message"> &gt;&gt; &quot;GET /facts?max_length=1&amp;limit=1 HTTP/1.1[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>2726</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message"> &gt;&gt; &quot;Accept: */*[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>2731</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message"> &gt;&gt; &quot;Host: catfact.ninja[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>2733</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message"> &gt;&gt; &quot;Connection: Keep-Alive[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>2735</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message"> &gt;&gt; &quot;User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.15)[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>2737</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message"> &gt;&gt; &quot;Accept-Encoding: gz?p,deflate[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>2760</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message"> &gt;&gt; &quot;[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>2762</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td>DefaultClientConnection.java:278</td>
+<td title="Message">&gt;&gt; GET /facts?max_length=1&amp;limit=1 HTTP/1.1</td>
+</tr>
+
+<tr>
+<td>2763</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td>DefaultClientConnection.java:281</td>
+<td title="Message">&gt;&gt; Accept: */*</td>
+</tr>
+
+<tr>
+<td>2765</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td>DefaultClientConnection.java:281</td>
+<td title="Message">&gt;&gt; Host: catfact.ninja</td>
+</tr>
+
+<tr>
+<td>2766</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td>DefaultClientConnection.java:281</td>
+<td title="Message">&gt;&gt; Connection: Keep-Alive</td>
+</tr>
+
+<tr>
+<td>2767</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td>DefaultClientConnection.java:281</td>
+<td title="Message">&gt;&gt; User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.15)</td>
+</tr>
+
+<tr>
+<td>2778</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td>DefaultClientConnection.java:281</td>
+<td title="Message">&gt;&gt; Accept-Encoding: gzıp,deflate</td>
+</tr>
+
+<tr>
+<td>2971</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message"> &lt;&lt; &quot;HTTP/1.1 200 OK[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>2975</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message"> &lt;&lt; &quot;Server: nginx[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>2977</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message"> &lt;&lt; &quot;Date: Thu, 01 Feb 2024 09:57:55 GMT[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>2982</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message"> &lt;&lt; &quot;Content-Type: application/json[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>2984</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message"> &lt;&lt; &quot;Transfer-Encoding: chunked[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>2985</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message"> &lt;&lt; &quot;Connection: keep-alive[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>2988</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message"> &lt;&lt; &quot;Vary: Accept-Encoding[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>2989</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message"> &lt;&lt; &quot;Cache-Control: no-cache, private[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>2990</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message"> &lt;&lt; &quot;X-Ratelimit-Limit: 100[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>2991</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message"> &lt;&lt; &quot;X-Ratelimit-Remaining: 99[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>2992</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message"> &lt;&lt; &quot;Access-Control-Allow-Origin: *[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>2993</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message"> &lt;&lt; &quot;Set-Cookie: XSRF-TOKEN=eyJpdiI6Ik53aFA1VGZnK3JrZ2hXdThPeDl1dmc9PSIsInZhbHVlIjoiamNIRVBFSS8yTWJBTU52SnVsWkRtSlBFeHlEdUNIRzZwYjYrbjhBMEVCYWdQZXNUR3ExWVl1U1ZhZWNxbkN4S2U0L2FVNVkwK0lkTHhEbnUzNm0zM3M1a09QeWxQVnBBbWh1cDZRN2ZQYnZheG9lNE1jRFM5MCtuRTk4d0twa1oiLCJtYWMiOiIxOTMyMjgyNzVjNThjMDliN2IyNzljMTlkNDg4MDA0Y2JlZDMwMzFlNDMwZGFjYzI5YWNmYjcxNmE3YmI0NDNlIiwidGFnIjoiIn0%3D; expires=Thu, 01-Feb-2024 11:57:55 GMT; path=/; samesite=lax[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>2998</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message"> &lt;&lt; &quot;Set-Cookie: catfacts_session=eyJpdiI6Imt1NEtwcENWNTVtYW1Zd0dEK0tBWWc9PSIsInZhbHVlIjoiOGljR2J5ZTVjUEp3OVZyc1l0NWZ5Y3duYk5YVU1DYWptVy84M29yaVRjMnV5MlFRRHlpYWYzVmtVUDEvdzJ0L0owMHIvaGxxbTRyWTY1YU5XbnhTSkp2cno2UFRPN0hKc1lvRmZuYXdESTN4c0FuRUNLaDJOcnJVNlZ0SGd6UmUiLCJtYWMiOiJlM2EzMDQwMTQxNTkzZjk5MGYyYzg0OTFkZGU0NjRhMmI2ZGQxZDA3ZDI4MGYyMmI1ZGY0NjAyMTAyZGMxMzZkIiwidGFnIjoiIn0%3D; expires=Thu, 01-Feb-2024 11:57:55 GMT; path=/; httponly; samesite=lax[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>2999</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message"> &lt;&lt; &quot;X-Frame-Options: SAMEORIGIN[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>2999</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message"> &lt;&lt; &quot;X-XSS-Protection: 1; mode=block[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>3000</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message"> &lt;&lt; &quot;X-Content-Type-Options: nosniff[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>3001</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message"> &lt;&lt; &quot;[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>3003</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.impl.conn.DefaultClientConnection category">org.apache.http.impl.conn.DefaultClientConnection</td>
+<td>DefaultClientConnection.java:259</td>
+<td title="Message">Receiving response: HTTP/1.1 200 OK</td>
+</tr>
+
+<tr>
+<td>3004</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td>DefaultClientConnection.java:262</td>
+<td title="Message">&lt;&lt; HTTP/1.1 200 OK</td>
+</tr>
+
+<tr>
+<td>3005</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td>DefaultClientConnection.java:265</td>
+<td title="Message">&lt;&lt; Server: nginx</td>
+</tr>
+
+<tr>
+<td>3006</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td>DefaultClientConnection.java:265</td>
+<td title="Message">&lt;&lt; Date: Thu, 01 Feb 2024 09:57:55 GMT</td>
+</tr>
+
+<tr>
+<td>3006</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td>DefaultClientConnection.java:265</td>
+<td title="Message">&lt;&lt; Content-Type: application/json</td>
+</tr>
+
+<tr>
+<td>3007</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td>DefaultClientConnection.java:265</td>
+<td title="Message">&lt;&lt; Transfer-Encoding: chunked</td>
+</tr>
+
+<tr>
+<td>3008</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td>DefaultClientConnection.java:265</td>
+<td title="Message">&lt;&lt; Connection: keep-alive</td>
+</tr>
+
+<tr>
+<td>3008</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td>DefaultClientConnection.java:265</td>
+<td title="Message">&lt;&lt; Vary: Accept-Encoding</td>
+</tr>
+
+<tr>
+<td>3009</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td>DefaultClientConnection.java:265</td>
+<td title="Message">&lt;&lt; Cache-Control: no-cache, private</td>
+</tr>
+
+<tr>
+<td>3010</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td>DefaultClientConnection.java:265</td>
+<td title="Message">&lt;&lt; X-Ratelimit-Limit: 100</td>
+</tr>
+
+<tr>
+<td>3010</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td>DefaultClientConnection.java:265</td>
+<td title="Message">&lt;&lt; X-Ratelimit-Remaining: 99</td>
+</tr>
+
+<tr>
+<td>3011</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td>DefaultClientConnection.java:265</td>
+<td title="Message">&lt;&lt; Access-Control-Allow-Origin: *</td>
+</tr>
+
+<tr>
+<td>3012</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td>DefaultClientConnection.java:265</td>
+<td title="Message">&lt;&lt; Set-Cookie: XSRF-TOKEN=eyJpdiI6Ik53aFA1VGZnK3JrZ2hXdThPeDl1dmc9PSIsInZhbHVlIjoiamNIRVBFSS8yTWJBTU52SnVsWkRtSlBFeHlEdUNIRzZwYjYrbjhBMEVCYWdQZXNUR3ExWVl1U1ZhZWNxbkN4S2U0L2FVNVkwK0lkTHhEbnUzNm0zM3M1a09QeWxQVnBBbWh1cDZRN2ZQYnZheG9lNE1jRFM5MCtuRTk4d0twa1oiLCJtYWMiOiIxOTMyMjgyNzVjNThjMDliN2IyNzljMTlkNDg4MDA0Y2JlZDMwMzFlNDMwZGFjYzI5YWNmYjcxNmE3YmI0NDNlIiwidGFnIjoiIn0%3D; expires=Thu, 01-Feb-2024 11:57:55 GMT; path=/; samesite=lax</td>
+</tr>
+
+<tr>
+<td>3013</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td>DefaultClientConnection.java:265</td>
+<td title="Message">&lt;&lt; Set-Cookie: catfacts_session=eyJpdiI6Imt1NEtwcENWNTVtYW1Zd0dEK0tBWWc9PSIsInZhbHVlIjoiOGljR2J5ZTVjUEp3OVZyc1l0NWZ5Y3duYk5YVU1DYWptVy84M29yaVRjMnV5MlFRRHlpYWYzVmtVUDEvdzJ0L0owMHIvaGxxbTRyWTY1YU5XbnhTSkp2cno2UFRPN0hKc1lvRmZuYXdESTN4c0FuRUNLaDJOcnJVNlZ0SGd6UmUiLCJtYWMiOiJlM2EzMDQwMTQxNTkzZjk5MGYyYzg0OTFkZGU0NjRhMmI2ZGQxZDA3ZDI4MGYyMmI1ZGY0NjAyMTAyZGMxMzZkIiwidGFnIjoiIn0%3D; expires=Thu, 01-Feb-2024 11:57:55 GMT; path=/; httponly; samesite=lax</td>
+</tr>
+
+<tr>
+<td>3014</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td>DefaultClientConnection.java:265</td>
+<td title="Message">&lt;&lt; X-Frame-Options: SAMEORIGIN</td>
+</tr>
+
+<tr>
+<td>3015</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td>DefaultClientConnection.java:265</td>
+<td title="Message">&lt;&lt; X-XSS-Protection: 1; mode=block</td>
+</tr>
+
+<tr>
+<td>3016</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td>DefaultClientConnection.java:265</td>
+<td title="Message">&lt;&lt; X-Content-Type-Options: nosniff</td>
+</tr>
+
+<tr>
+<td>3024</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.impl.client.DefaultHttpClient category">org.apache.http.impl.client.DefaultHttpClient</td>
+<td>DefaultRequestDirector.java:504</td>
+<td title="Message">Connection can be kept alive indefinitely</td>
+</tr>
+
+<tr>
+<td>3194</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder category">io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder</td>
+<td>HTTPBuilder.java:547</td>
+<td title="Message">Parsing response as: application/json</td>
+</tr>
+
+<tr>
+<td>3195</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder category">io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder</td>
+<td>HTTPBuilder.java:550</td>
+<td title="Message">Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream</td>
+</tr>
+
+<tr>
+<td>3339</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message"> &lt;&lt; &quot;1ca[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>3339</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:87</td>
+<td title="Message"> &lt;&lt; &quot;{&quot;current_page&quot;:1,&quot;data&quot;:[],&quot;first_page_url&quot;:&quot;https:\/\/catfact.ninja\/facts?page=1&quot;,&quot;from&quot;:null,&quot;last_page&quot;:1,&quot;last_page_url&quot;:&quot;https:\/\/catfact.ninja\/facts?page=1&quot;,&quot;links&quot;:[{&quot;url&quot;:null,&quot;label&quot;:&quot;Previous&quot;,&quot;active&quot;:false},{&quot;url&quot;:&quot;https:\/\/catfact.ninja\/facts?page=1&quot;,&quot;label&quot;:&quot;1&quot;,&quot;active&quot;:true},{&quot;url&quot;:null,&quot;label&quot;:&quot;Next&quot;,&quot;active&quot;:false}],&quot;next_page_url&quot;:null,&quot;path&quot;:&quot;https:\/\/catfact.ninja\/facts&quot;,&quot;per_page&quot;:&quot;1&quot;,&quot;prev_page_url&quot;:null,&quot;to&quot;:null,&quot;total&quot;:0}&quot;</td>
+</tr>
+
+<tr>
+<td>3341</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message"> &lt;&lt; &quot;[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>3341</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message"> &lt;&lt; &quot;0[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>3342</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message"> &lt;&lt; &quot;[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>3343</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.impl.conn.BasicClientConnectionManager category">org.apache.http.impl.conn.BasicClientConnectionManager</td>
+<td>BasicClientConnectionManager.java:200</td>
+<td title="Message">Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@7593ea79</td>
+</tr>
+
+<tr>
+<td>3343</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.impl.conn.BasicClientConnectionManager category">org.apache.http.impl.conn.BasicClientConnectionManager</td>
+<td>BasicClientConnectionManager.java:225</td>
+<td title="Message">Connection can be kept alive indefinitely</td>
+</tr>
+
+<tr>
+<td>3439</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFacts category">requests.GetFacts</td>
+<td>GetFacts.java:42</td>
+<td title="Message">Assertions have been made</td>
+</tr>
+
+<tr>
+<td>3497</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFacts category">requests.GetFacts</td>
+<td>GetFacts.java:47</td>
+<td title="Message">Test finished</td>
+</tr>

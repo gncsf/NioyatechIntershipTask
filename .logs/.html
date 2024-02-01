@@ -1,0 +1,3074 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application logs</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Thu Feb 01 13:08:27 EET 2024<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFacts category">requests.GetFacts</td>
+<td>GetFacts.java:23</td>
+<td title="Message">Test  started</td>
+</tr>
+
+<tr>
+<td>584</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFacts category">requests.GetFacts</td>
+<td>GetFacts.java:36</td>
+<td title="Message">Response result printed</td>
+</tr>
+
+<tr>
+<td>1776</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.impl.conn.BasicClientConnectionManager category">org.apache.http.impl.conn.BasicClientConnectionManager</td>
+<td>BasicClientConnectionManager.java:161</td>
+<td title="Message">Get connection for route {s}-&gt;https://catfact.ninja:443</td>
+</tr>
+
+<tr>
+<td>1799</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.impl.conn.DefaultClientConnectionOperator category">org.apache.http.impl.conn.DefaultClientConnectionOperator</td>
+<td>DefaultClientConnectionOperator.java:177</td>
+<td title="Message">Connecting to catfact.ninja:443</td>
+</tr>
+
+<tr>
+<td>2730</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.client.protocol.RequestAddCookies category">org.apache.http.client.protocol.RequestAddCookies</td>
+<td>RequestAddCookies.java:123</td>
+<td title="Message">CookieSpec selected: ignoreCookies</td>
+</tr>
+
+<tr>
+<td>2745</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.client.protocol.RequestAuthCache category">org.apache.http.client.protocol.RequestAuthCache</td>
+<td>RequestAuthCache.java:77</td>
+<td title="Message">Auth cache not set in the context</td>
+</tr>
+
+<tr>
+<td>2746</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.client.protocol.RequestTargetAuthentication category">org.apache.http.client.protocol.RequestTargetAuthentication</td>
+<td>RequestTargetAuthentication.java:80</td>
+<td title="Message">Target auth state: UNCHALLENGED</td>
+</tr>
+
+<tr>
+<td>2751</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.client.protocol.RequestProxyAuthentication category">org.apache.http.client.protocol.RequestProxyAuthentication</td>
+<td>RequestProxyAuthentication.java:89</td>
+<td title="Message">Proxy auth state: UNCHALLENGED</td>
+</tr>
+
+<tr>
+<td>2753</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.impl.client.DefaultHttpClient category">org.apache.http.impl.client.DefaultHttpClient</td>
+<td>DefaultRequestDirector.java:677</td>
+<td title="Message">Attempt 1 to execute request</td>
+</tr>
+
+<tr>
+<td>2754</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.impl.conn.DefaultClientConnection category">org.apache.http.impl.conn.DefaultClientConnection</td>
+<td>DefaultClientConnection.java:274</td>
+<td title="Message">Sending request: GET /facts?max_length=1&amp;limit=1 HTTP/1.1</td>
+</tr>
+
+<tr>
+<td>2755</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message"> &gt;&gt; &quot;GET /facts?max_length=1&amp;limit=1 HTTP/1.1[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>2774</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message"> &gt;&gt; &quot;Accept: */*[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>2776</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message"> &gt;&gt; &quot;Host: catfact.ninja[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>2777</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message"> &gt;&gt; &quot;Connection: Keep-Alive[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>2779</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message"> &gt;&gt; &quot;User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.15)[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>2780</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message"> &gt;&gt; &quot;Accept-Encoding: gz?p,deflate[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>2783</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message"> &gt;&gt; &quot;[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>2786</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td>DefaultClientConnection.java:278</td>
+<td title="Message">&gt;&gt; GET /facts?max_length=1&amp;limit=1 HTTP/1.1</td>
+</tr>
+
+<tr>
+<td>2789</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td>DefaultClientConnection.java:281</td>
+<td title="Message">&gt;&gt; Accept: */*</td>
+</tr>
+
+<tr>
+<td>2790</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td>DefaultClientConnection.java:281</td>
+<td title="Message">&gt;&gt; Host: catfact.ninja</td>
+</tr>
+
+<tr>
+<td>2791</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td>DefaultClientConnection.java:281</td>
+<td title="Message">&gt;&gt; Connection: Keep-Alive</td>
+</tr>
+
+<tr>
+<td>2792</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td>DefaultClientConnection.java:281</td>
+<td title="Message">&gt;&gt; User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.15)</td>
+</tr>
+
+<tr>
+<td>2804</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td>DefaultClientConnection.java:281</td>
+<td title="Message">&gt;&gt; Accept-Encoding: gzıp,deflate</td>
+</tr>
+
+<tr>
+<td>2991</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message"> &lt;&lt; &quot;HTTP/1.1 200 OK[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>2994</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message"> &lt;&lt; &quot;Server: nginx[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>2996</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message"> &lt;&lt; &quot;Date: Thu, 01 Feb 2024 10:08:29 GMT[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>2997</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message"> &lt;&lt; &quot;Content-Type: application/json[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>2999</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message"> &lt;&lt; &quot;Transfer-Encoding: chunked[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>3000</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message"> &lt;&lt; &quot;Connection: keep-alive[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>3001</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message"> &lt;&lt; &quot;Vary: Accept-Encoding[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>3003</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message"> &lt;&lt; &quot;Cache-Control: no-cache, private[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>3004</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message"> &lt;&lt; &quot;X-Ratelimit-Limit: 100[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>3004</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message"> &lt;&lt; &quot;X-Ratelimit-Remaining: 99[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>3005</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message"> &lt;&lt; &quot;Access-Control-Allow-Origin: *[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>3007</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message"> &lt;&lt; &quot;Set-Cookie: XSRF-TOKEN=eyJpdiI6IkxOMnEybXZNMlUwUWg2dkhBNXVDWUE9PSIsInZhbHVlIjoiSThKZWxUL2U2TXYyK1dTOFhMMkVPQ3krYjFMc2JGaEtqaGlqWXdDb0xRaUpxTytRS3BYVUxGUjlZekZoSEhtaUQxZHU0bDZnUTZwa3cwSVpIWDZBdy83WDRVQTNqMzZFSlIvY0s1TWQ3WDVEZDVTMnBJV2lmcUtYa1ozV3VQZnQiLCJtYWMiOiIwY2FlZWMwZmRhZTc5MzVkNGVhZDFjOGRlZTNmNGM0MTQzYjlmNzY0ODhkNWMxM2VkOTJjMDdlYzQyZmE1MTk0IiwidGFnIjoiIn0%3D; expires=Thu, 01-Feb-2024 12:08:29 GMT; path=/; samesite=lax[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>3009</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message"> &lt;&lt; &quot;Set-Cookie: catfacts_session=eyJpdiI6InJaQ1NyODFqcHVUalhZN1p3N0FuVHc9PSIsInZhbHVlIjoiSkpUWEtaZVpJVWhjWnhBOWN0UUlMWUROUGRlV3RzOXMrd1NNMytsS3RWN0JiUzkxN0FOYkJ6T0dGNFNvTUUzWmtLNVVQSitZZUIwOE9RZkVsNERaSGJsS2JLaWZKcDhGalA2emZmQ3JsS0hJc29LSlU2QlNRdUtGbEdBeHI4SFgiLCJtYWMiOiJmOGFmOThiMDZkN2E1YmNkNmRkNmY1OWNlZjFlNDUxZTIwNTc5MzY0OWUzNmVhMjNlMTk0YzgxZjcwZjFiMTAzIiwidGFnIjoiIn0%3D; expires=Thu, 01-Feb-2024 12:08:29 GMT; path=/; httponly; samesite=lax[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>3010</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message"> &lt;&lt; &quot;X-Frame-Options: SAMEORIGIN[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>3012</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message"> &lt;&lt; &quot;X-XSS-Protection: 1; mode=block[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>3012</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message"> &lt;&lt; &quot;X-Content-Type-Options: nosniff[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>3013</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message"> &lt;&lt; &quot;[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>3015</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.impl.conn.DefaultClientConnection category">org.apache.http.impl.conn.DefaultClientConnection</td>
+<td>DefaultClientConnection.java:259</td>
+<td title="Message">Receiving response: HTTP/1.1 200 OK</td>
+</tr>
+
+<tr>
+<td>3016</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td>DefaultClientConnection.java:262</td>
+<td title="Message">&lt;&lt; HTTP/1.1 200 OK</td>
+</tr>
+
+<tr>
+<td>3018</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td>DefaultClientConnection.java:265</td>
+<td title="Message">&lt;&lt; Server: nginx</td>
+</tr>
+
+<tr>
+<td>3021</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td>DefaultClientConnection.java:265</td>
+<td title="Message">&lt;&lt; Date: Thu, 01 Feb 2024 10:08:29 GMT</td>
+</tr>
+
+<tr>
+<td>3022</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td>DefaultClientConnection.java:265</td>
+<td title="Message">&lt;&lt; Content-Type: application/json</td>
+</tr>
+
+<tr>
+<td>3022</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td>DefaultClientConnection.java:265</td>
+<td title="Message">&lt;&lt; Transfer-Encoding: chunked</td>
+</tr>
+
+<tr>
+<td>3023</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td>DefaultClientConnection.java:265</td>
+<td title="Message">&lt;&lt; Connection: keep-alive</td>
+</tr>
+
+<tr>
+<td>3024</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td>DefaultClientConnection.java:265</td>
+<td title="Message">&lt;&lt; Vary: Accept-Encoding</td>
+</tr>
+
+<tr>
+<td>3024</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td>DefaultClientConnection.java:265</td>
+<td title="Message">&lt;&lt; Cache-Control: no-cache, private</td>
+</tr>
+
+<tr>
+<td>3025</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td>DefaultClientConnection.java:265</td>
+<td title="Message">&lt;&lt; X-Ratelimit-Limit: 100</td>
+</tr>
+
+<tr>
+<td>3026</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td>DefaultClientConnection.java:265</td>
+<td title="Message">&lt;&lt; X-Ratelimit-Remaining: 99</td>
+</tr>
+
+<tr>
+<td>3027</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td>DefaultClientConnection.java:265</td>
+<td title="Message">&lt;&lt; Access-Control-Allow-Origin: *</td>
+</tr>
+
+<tr>
+<td>3028</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td>DefaultClientConnection.java:265</td>
+<td title="Message">&lt;&lt; Set-Cookie: XSRF-TOKEN=eyJpdiI6IkxOMnEybXZNMlUwUWg2dkhBNXVDWUE9PSIsInZhbHVlIjoiSThKZWxUL2U2TXYyK1dTOFhMMkVPQ3krYjFMc2JGaEtqaGlqWXdDb0xRaUpxTytRS3BYVUxGUjlZekZoSEhtaUQxZHU0bDZnUTZwa3cwSVpIWDZBdy83WDRVQTNqMzZFSlIvY0s1TWQ3WDVEZDVTMnBJV2lmcUtYa1ozV3VQZnQiLCJtYWMiOiIwY2FlZWMwZmRhZTc5MzVkNGVhZDFjOGRlZTNmNGM0MTQzYjlmNzY0ODhkNWMxM2VkOTJjMDdlYzQyZmE1MTk0IiwidGFnIjoiIn0%3D; expires=Thu, 01-Feb-2024 12:08:29 GMT; path=/; samesite=lax</td>
+</tr>
+
+<tr>
+<td>3029</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td>DefaultClientConnection.java:265</td>
+<td title="Message">&lt;&lt; Set-Cookie: catfacts_session=eyJpdiI6InJaQ1NyODFqcHVUalhZN1p3N0FuVHc9PSIsInZhbHVlIjoiSkpUWEtaZVpJVWhjWnhBOWN0UUlMWUROUGRlV3RzOXMrd1NNMytsS3RWN0JiUzkxN0FOYkJ6T0dGNFNvTUUzWmtLNVVQSitZZUIwOE9RZkVsNERaSGJsS2JLaWZKcDhGalA2emZmQ3JsS0hJc29LSlU2QlNRdUtGbEdBeHI4SFgiLCJtYWMiOiJmOGFmOThiMDZkN2E1YmNkNmRkNmY1OWNlZjFlNDUxZTIwNTc5MzY0OWUzNmVhMjNlMTk0YzgxZjcwZjFiMTAzIiwidGFnIjoiIn0%3D; expires=Thu, 01-Feb-2024 12:08:29 GMT; path=/; httponly; samesite=lax</td>
+</tr>
+
+<tr>
+<td>3030</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td>DefaultClientConnection.java:265</td>
+<td title="Message">&lt;&lt; X-Frame-Options: SAMEORIGIN</td>
+</tr>
+
+<tr>
+<td>3030</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td>DefaultClientConnection.java:265</td>
+<td title="Message">&lt;&lt; X-XSS-Protection: 1; mode=block</td>
+</tr>
+
+<tr>
+<td>3031</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td>DefaultClientConnection.java:265</td>
+<td title="Message">&lt;&lt; X-Content-Type-Options: nosniff</td>
+</tr>
+
+<tr>
+<td>3044</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.impl.client.DefaultHttpClient category">org.apache.http.impl.client.DefaultHttpClient</td>
+<td>DefaultRequestDirector.java:504</td>
+<td title="Message">Connection can be kept alive indefinitely</td>
+</tr>
+
+<tr>
+<td>3086</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder category">io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder</td>
+<td>HTTPBuilder.java:547</td>
+<td title="Message">Parsing response as: application/json</td>
+</tr>
+
+<tr>
+<td>3087</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder category">io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder</td>
+<td>HTTPBuilder.java:550</td>
+<td title="Message">Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream</td>
+</tr>
+
+<tr>
+<td>3228</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message"> &lt;&lt; &quot;1ca[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>3229</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:87</td>
+<td title="Message"> &lt;&lt; &quot;{&quot;current_page&quot;:1,&quot;data&quot;:[],&quot;first_page_url&quot;:&quot;https:\/\/catfact.ninja\/facts?page=1&quot;,&quot;from&quot;:null,&quot;last_page&quot;:1,&quot;last_page_url&quot;:&quot;https:\/\/catfact.ninja\/facts?page=1&quot;,&quot;links&quot;:[{&quot;url&quot;:null,&quot;label&quot;:&quot;Previous&quot;,&quot;active&quot;:false},{&quot;url&quot;:&quot;https:\/\/catfact.ninja\/facts?page=1&quot;,&quot;label&quot;:&quot;1&quot;,&quot;active&quot;:true},{&quot;url&quot;:null,&quot;label&quot;:&quot;Next&quot;,&quot;active&quot;:false}],&quot;next_page_url&quot;:null,&quot;path&quot;:&quot;https:\/\/catfact.ninja\/facts&quot;,&quot;per_page&quot;:&quot;1&quot;,&quot;prev_page_url&quot;:null,&quot;to&quot;:null,&quot;total&quot;:0}&quot;</td>
+</tr>
+
+<tr>
+<td>3231</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message"> &lt;&lt; &quot;[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>3232</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message"> &lt;&lt; &quot;0[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>3232</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message"> &lt;&lt; &quot;[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>3236</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.impl.conn.BasicClientConnectionManager category">org.apache.http.impl.conn.BasicClientConnectionManager</td>
+<td>BasicClientConnectionManager.java:200</td>
+<td title="Message">Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@5a0bef24</td>
+</tr>
+
+<tr>
+<td>3236</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.impl.conn.BasicClientConnectionManager category">org.apache.http.impl.conn.BasicClientConnectionManager</td>
+<td>BasicClientConnectionManager.java:225</td>
+<td title="Message">Connection can be kept alive indefinitely</td>
+</tr>
+
+<tr>
+<td>3331</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFacts category">requests.GetFacts</td>
+<td>GetFacts.java:42</td>
+<td title="Message">Assertions have been made</td>
+</tr>
+
+<tr>
+<td>3335</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFacts category">requests.GetFacts</td>
+<td>GetFacts.java:47</td>
+<td title="Message">Test finished</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application logs</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Thu Feb 01 13:09:34 EET 2024<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFacts category">requests.GetFacts</td>
+<td>GetFacts.java:23</td>
+<td title="Message">Test  started</td>
+</tr>
+
+<tr>
+<td>513</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFacts category">requests.GetFacts</td>
+<td>GetFacts.java:36</td>
+<td title="Message">Response result printed</td>
+</tr>
+
+<tr>
+<td>3237</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFacts category">requests.GetFacts</td>
+<td>GetFacts.java:42</td>
+<td title="Message">Assertions have been made</td>
+</tr>
+
+<tr>
+<td>3240</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFacts category">requests.GetFacts</td>
+<td>GetFacts.java:47</td>
+<td title="Message">Test finished</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application logs</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Thu Feb 01 13:12:05 EET 2024<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFact category">requests.GetFact</td>
+<td>GetFact.java:22</td>
+<td title="Message">Test  started</td>
+</tr>
+
+<tr>
+<td>663</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFact category">requests.GetFact</td>
+<td>GetFact.java:30</td>
+<td title="Message">Response result printed</td>
+</tr>
+
+<tr>
+<td>2955</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFact category">requests.GetFact</td>
+<td>GetFact.java:36</td>
+<td title="Message">Assertions have been made</td>
+</tr>
+
+<tr>
+<td>2958</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFact category">requests.GetFact</td>
+<td>GetFact.java:39</td>
+<td title="Message">Test finished</td>
+</tr>
+</table>
+<br>
+</body></html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application logs</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Thu Feb 01 13:12:08 EET 2024<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>2972</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFacts category">requests.GetFacts</td>
+<td>GetFacts.java:23</td>
+<td title="Message">Test  started</td>
+</tr>
+
+<tr>
+<td>2973</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFacts category">requests.GetFacts</td>
+<td>GetFacts.java:36</td>
+<td title="Message">Response result printed</td>
+</tr>
+
+<tr>
+<td>3581</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFacts category">requests.GetFacts</td>
+<td>GetFacts.java:42</td>
+<td title="Message">Assertions have been made</td>
+</tr>
+
+<tr>
+<td>3582</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFacts category">requests.GetFacts</td>
+<td>GetFacts.java:47</td>
+<td title="Message">Test finished</td>
+</tr>
+</table>
+<br>
+</body></html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application logs</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Thu Feb 01 13:12:08 EET 2024<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>3605</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFact category">requests.GetFact</td>
+<td>GetBreeds.java:23</td>
+<td title="Message">Test  started</td>
+</tr>
+
+<tr>
+<td>3608</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFact category">requests.GetFact</td>
+<td>GetBreeds.java:45</td>
+<td title="Message">Response result printed</td>
+</tr>
+
+<tr>
+<td>4334</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFact category">requests.GetFact</td>
+<td>GetBreeds.java:51</td>
+<td title="Message">Assertions have been made</td>
+</tr>
+
+<tr>
+<td>4334</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFact category">requests.GetFact</td>
+<td>GetBreeds.java:56</td>
+<td title="Message">Test finished</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application logs</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Thu Feb 01 13:13:30 EET 2024<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFact category">requests.GetFact</td>
+<td>GetFact.java:22</td>
+<td title="Message">Test  started</td>
+</tr>
+
+<tr>
+<td>599</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFact category">requests.GetFact</td>
+<td>GetFact.java:30</td>
+<td title="Message">Response result printed</td>
+</tr>
+
+<tr>
+<td>2812</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFact category">requests.GetFact</td>
+<td>GetFact.java:36</td>
+<td title="Message">Assertions have been made</td>
+</tr>
+
+<tr>
+<td>2815</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFact category">requests.GetFact</td>
+<td>GetFact.java:39</td>
+<td title="Message">Test finished</td>
+</tr>
+</table>
+<br>
+</body></html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application logs</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Thu Feb 01 13:13:33 EET 2024<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>2836</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFacts category">requests.GetFacts</td>
+<td>GetFacts.java:23</td>
+<td title="Message">Test  started</td>
+</tr>
+
+<tr>
+<td>2839</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFacts category">requests.GetFacts</td>
+<td>GetFacts.java:36</td>
+<td title="Message">Response result printed</td>
+</tr>
+
+<tr>
+<td>3482</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFacts category">requests.GetFacts</td>
+<td>GetFacts.java:42</td>
+<td title="Message">Assertions have been made</td>
+</tr>
+
+<tr>
+<td>3483</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFacts category">requests.GetFacts</td>
+<td>GetFacts.java:47</td>
+<td title="Message">Test finished</td>
+</tr>
+</table>
+<br>
+</body></html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application logs</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Thu Feb 01 13:13:34 EET 2024<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>3495</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetBreeds category">requests.GetBreeds</td>
+<td>GetBreeds.java:23</td>
+<td title="Message">Test  started</td>
+</tr>
+
+<tr>
+<td>3498</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetBreeds category">requests.GetBreeds</td>
+<td>GetBreeds.java:45</td>
+<td title="Message">Response result printed</td>
+</tr>
+
+<tr>
+<td>4113</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetBreeds category">requests.GetBreeds</td>
+<td>GetBreeds.java:51</td>
+<td title="Message">Assertions have been made</td>
+</tr>
+
+<tr>
+<td>4114</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetBreeds category">requests.GetBreeds</td>
+<td>GetBreeds.java:56</td>
+<td title="Message">Test finished</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application logs</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Thu Feb 01 13:15:59 EET 2024<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFact category">requests.GetFact</td>
+<td>GetFact.java:22</td>
+<td title="Message">Test  started</td>
+</tr>
+
+<tr>
+<td>615</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFact category">requests.GetFact</td>
+<td>GetFact.java:30</td>
+<td title="Message">Response result printed</td>
+</tr>
+
+<tr>
+<td>2943</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFact category">requests.GetFact</td>
+<td>GetFact.java:36</td>
+<td title="Message">Assertions have been made</td>
+</tr>
+</table>
+<br>
+</body></html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application logs</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Thu Feb 01 13:16:02 EET 2024<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>3000</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFacts category">requests.GetFacts</td>
+<td>GetFacts.java:23</td>
+<td title="Message">Test  started</td>
+</tr>
+
+<tr>
+<td>3004</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFacts category">requests.GetFacts</td>
+<td>GetFacts.java:36</td>
+<td title="Message">Response result printed</td>
+</tr>
+
+<tr>
+<td>3698</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFacts category">requests.GetFacts</td>
+<td>GetFacts.java:42</td>
+<td title="Message">Assertions have been made</td>
+</tr>
+
+<tr>
+<td>3698</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFacts category">requests.GetFacts</td>
+<td>GetFacts.java:47</td>
+<td title="Message">Test finished</td>
+</tr>
+</table>
+<br>
+</body></html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application logs</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Thu Feb 01 13:16:03 EET 2024<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>3709</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetBreeds category">requests.GetBreeds</td>
+<td>GetBreeds.java:23</td>
+<td title="Message">Test  started</td>
+</tr>
+
+<tr>
+<td>3711</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetBreeds category">requests.GetBreeds</td>
+<td>GetBreeds.java:44</td>
+<td title="Message">Response result printed</td>
+</tr>
+
+<tr>
+<td>4300</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetBreeds category">requests.GetBreeds</td>
+<td>GetBreeds.java:50</td>
+<td title="Message">Assertions have been made</td>
+</tr>
+
+<tr>
+<td>4301</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetBreeds category">requests.GetBreeds</td>
+<td>GetBreeds.java:55</td>
+<td title="Message">Test finished</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application logs</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Thu Feb 01 13:18:41 EET 2024<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFact category">requests.GetFact</td>
+<td>GetFact.java:22</td>
+<td title="Message">Test  started</td>
+</tr>
+
+<tr>
+<td>513</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFact category">requests.GetFact</td>
+<td>GetFact.java:30</td>
+<td title="Message">Response result printed</td>
+</tr>
+
+<tr>
+<td>2855</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFact category">requests.GetFact</td>
+<td>GetFact.java:36</td>
+<td title="Message">Assertions have been made</td>
+</tr>
+</table>
+<br>
+</body></html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application logs</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Thu Feb 01 13:18:44 EET 2024<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>2887</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFacts category">requests.GetFacts</td>
+<td>GetFacts.java:23</td>
+<td title="Message">Test  started</td>
+</tr>
+
+<tr>
+<td>2890</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFacts category">requests.GetFacts</td>
+<td>GetFacts.java:36</td>
+<td title="Message">Response result printed</td>
+</tr>
+
+<tr>
+<td>3526</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFacts category">requests.GetFacts</td>
+<td>GetFacts.java:42</td>
+<td title="Message">Assertions have been made</td>
+</tr>
+
+<tr>
+<td>3527</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFacts category">requests.GetFacts</td>
+<td>GetFacts.java:47</td>
+<td title="Message">Test finished</td>
+</tr>
+</table>
+<br>
+</body></html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application logs</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Thu Feb 01 13:18:45 EET 2024<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>3540</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetBreeds category">requests.GetBreeds</td>
+<td>GetBreeds.java:23</td>
+<td title="Message">Test  started</td>
+</tr>
+
+<tr>
+<td>3542</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetBreeds category">requests.GetBreeds</td>
+<td>GetBreeds.java:44</td>
+<td title="Message">Response result printed</td>
+</tr>
+
+<tr>
+<td>4161</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetBreeds category">requests.GetBreeds</td>
+<td>GetBreeds.java:50</td>
+<td title="Message">Assertions have been made</td>
+</tr>
+
+<tr>
+<td>4161</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetBreeds category">requests.GetBreeds</td>
+<td>GetBreeds.java:55</td>
+<td title="Message">Test finished</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application logs</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Thu Feb 01 13:19:02 EET 2024<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFact category">requests.GetFact</td>
+<td>GetFact.java:22</td>
+<td title="Message">Test  started</td>
+</tr>
+
+<tr>
+<td>489</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFact category">requests.GetFact</td>
+<td>GetFact.java:30</td>
+<td title="Message">Response result printed</td>
+</tr>
+
+<tr>
+<td>2619</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFact category">requests.GetFact</td>
+<td>GetFact.java:36</td>
+<td title="Message">Assertions have been made</td>
+</tr>
+</table>
+<br>
+</body></html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application logs</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Thu Feb 01 13:19:05 EET 2024<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>2680</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFacts category">requests.GetFacts</td>
+<td>GetFacts.java:23</td>
+<td title="Message">Test  started</td>
+</tr>
+
+<tr>
+<td>2687</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFacts category">requests.GetFacts</td>
+<td>GetFacts.java:36</td>
+<td title="Message">Response result printed</td>
+</tr>
+
+<tr>
+<td>3401</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFacts category">requests.GetFacts</td>
+<td>GetFacts.java:42</td>
+<td title="Message">Assertions have been made</td>
+</tr>
+
+<tr>
+<td>3402</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFacts category">requests.GetFacts</td>
+<td>GetFacts.java:47</td>
+<td title="Message">Test finished</td>
+</tr>
+</table>
+<br>
+</body></html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application logs</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Thu Feb 01 13:19:06 EET 2024<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>3411</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetBreeds category">requests.GetBreeds</td>
+<td>GetBreeds.java:23</td>
+<td title="Message">Test  started</td>
+</tr>
+
+<tr>
+<td>3414</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetBreeds category">requests.GetBreeds</td>
+<td>GetBreeds.java:44</td>
+<td title="Message">Response result printed</td>
+</tr>
+
+<tr>
+<td>4093</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetBreeds category">requests.GetBreeds</td>
+<td>GetBreeds.java:50</td>
+<td title="Message">Assertions have been made</td>
+</tr>
+
+<tr>
+<td>4093</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetBreeds category">requests.GetBreeds</td>
+<td>GetBreeds.java:55</td>
+<td title="Message">Test finished</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application logs</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Thu Feb 01 13:20:00 EET 2024<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFact category">requests.GetFact</td>
+<td>GetFact.java:22</td>
+<td title="Message">Test  started</td>
+</tr>
+
+<tr>
+<td>479</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFact category">requests.GetFact</td>
+<td>GetFact.java:30</td>
+<td title="Message">Response result printed</td>
+</tr>
+
+<tr>
+<td>2608</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFact category">requests.GetFact</td>
+<td>GetFact.java:36</td>
+<td title="Message">Assertions have been made</td>
+</tr>
+</table>
+<br>
+</body></html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application logs</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Thu Feb 01 13:20:03 EET 2024<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>2648</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFacts category">requests.GetFacts</td>
+<td>GetFacts.java:23</td>
+<td title="Message">Test  started</td>
+</tr>
+
+<tr>
+<td>2650</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFacts category">requests.GetFacts</td>
+<td>GetFacts.java:36</td>
+<td title="Message">Response result printed</td>
+</tr>
+
+<tr>
+<td>3339</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFacts category">requests.GetFacts</td>
+<td>GetFacts.java:42</td>
+<td title="Message">Assertions have been made</td>
+</tr>
+
+<tr>
+<td>3340</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFacts category">requests.GetFacts</td>
+<td>GetFacts.java:47</td>
+<td title="Message">Test finished</td>
+</tr>
+</table>
+<br>
+</body></html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application logs</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Thu Feb 01 13:20:03 EET 2024<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>3351</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetBreeds category">requests.GetBreeds</td>
+<td>GetBreeds.java:23</td>
+<td title="Message">Test  started</td>
+</tr>
+
+<tr>
+<td>3352</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetBreeds category">requests.GetBreeds</td>
+<td>GetBreeds.java:44</td>
+<td title="Message">Response result printed</td>
+</tr>
+
+<tr>
+<td>4033</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetBreeds category">requests.GetBreeds</td>
+<td>GetBreeds.java:50</td>
+<td title="Message">Assertions have been made</td>
+</tr>
+
+<tr>
+<td>4035</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetBreeds category">requests.GetBreeds</td>
+<td>GetBreeds.java:55</td>
+<td title="Message">Test finished</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application logs</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Thu Feb 01 13:20:27 EET 2024<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFact category">requests.GetFact</td>
+<td>GetFact.java:22</td>
+<td title="Message">Test  started</td>
+</tr>
+
+<tr>
+<td>470</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFact category">requests.GetFact</td>
+<td>GetFact.java:30</td>
+<td title="Message">Response result printed</td>
+</tr>
+
+<tr>
+<td>2505</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFact category">requests.GetFact</td>
+<td>GetFact.java:36</td>
+<td title="Message">Assertions have been made</td>
+</tr>
+</table>
+<br>
+</body></html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application logs</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Thu Feb 01 13:20:30 EET 2024<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>2545</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFacts category">requests.GetFacts</td>
+<td>GetFacts.java:23</td>
+<td title="Message">Test  started</td>
+</tr>
+
+<tr>
+<td>2547</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFacts category">requests.GetFacts</td>
+<td>GetFacts.java:36</td>
+<td title="Message">Response result printed</td>
+</tr>
+
+<tr>
+<td>3226</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFacts category">requests.GetFacts</td>
+<td>GetFacts.java:42</td>
+<td title="Message">Assertions have been made</td>
+</tr>
+
+<tr>
+<td>3227</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFacts category">requests.GetFacts</td>
+<td>GetFacts.java:47</td>
+<td title="Message">Test finished</td>
+</tr>
+</table>
+<br>
+</body></html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application logs</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Thu Feb 01 13:20:31 EET 2024<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>3238</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetBreeds category">requests.GetBreeds</td>
+<td>GetBreeds.java:23</td>
+<td title="Message">Test  started</td>
+</tr>
+
+<tr>
+<td>3240</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetBreeds category">requests.GetBreeds</td>
+<td>GetBreeds.java:44</td>
+<td title="Message">Response result printed</td>
+</tr>
+
+<tr>
+<td>3912</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetBreeds category">requests.GetBreeds</td>
+<td>GetBreeds.java:50</td>
+<td title="Message">Assertions have been made</td>
+</tr>
+
+<tr>
+<td>3912</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetBreeds category">requests.GetBreeds</td>
+<td>GetBreeds.java:55</td>
+<td title="Message">Test finished</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application logs</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Thu Feb 01 13:21:15 EET 2024<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFact category">requests.GetFact</td>
+<td>GetFact.java:22</td>
+<td title="Message">Test  started</td>
+</tr>
+
+<tr>
+<td>556</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFact category">requests.GetFact</td>
+<td>GetFact.java:30</td>
+<td title="Message">Response result printed</td>
+</tr>
+
+<tr>
+<td>3665</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFact category">requests.GetFact</td>
+<td>GetFact.java:36</td>
+<td title="Message">Assertions have been made</td>
+</tr>
+
+<tr>
+<td>3665</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFact category">requests.GetFact</td>
+<td>GetFact.java:39</td>
+<td title="Message">Test finished</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application logs</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Thu Feb 01 13:21:31 EET 2024<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFact category">requests.GetFact</td>
+<td>GetFact.java:22</td>
+<td title="Message">Test  started</td>
+</tr>
+
+<tr>
+<td>633</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFact category">requests.GetFact</td>
+<td>GetFact.java:30</td>
+<td title="Message">Response result printed</td>
+</tr>
+
+<tr>
+<td>2729</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFact category">requests.GetFact</td>
+<td>GetFact.java:36</td>
+<td title="Message">Assertions have been made</td>
+</tr>
+
+<tr>
+<td>2730</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFact category">requests.GetFact</td>
+<td>GetFact.java:39</td>
+<td title="Message">Test finished</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application logs</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Thu Feb 01 13:21:49 EET 2024<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFact category">requests.GetFact</td>
+<td>GetFact.java:22</td>
+<td title="Message">Test  started</td>
+</tr>
+
+<tr>
+<td>548</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFact category">requests.GetFact</td>
+<td>GetFact.java:30</td>
+<td title="Message">Response result printed</td>
+</tr>
+
+<tr>
+<td>2643</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFact category">requests.GetFact</td>
+<td>GetFact.java:36</td>
+<td title="Message">Assertions have been made</td>
+</tr>
+
+<tr>
+<td>2644</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFact category">requests.GetFact</td>
+<td>GetFact.java:39</td>
+<td title="Message">Test finished</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application logs</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Thu Feb 01 13:21:59 EET 2024<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFact category">requests.GetFact</td>
+<td>GetFact.java:22</td>
+<td title="Message">Test  started</td>
+</tr>
+
+<tr>
+<td>554</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFact category">requests.GetFact</td>
+<td>GetFact.java:30</td>
+<td title="Message">Response result printed</td>
+</tr>
+
+<tr>
+<td>2653</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFact category">requests.GetFact</td>
+<td>GetFact.java:36</td>
+<td title="Message">Assertions have been made</td>
+</tr>
+
+<tr>
+<td>2653</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFact category">requests.GetFact</td>
+<td>GetFact.java:39</td>
+<td title="Message">Test finished</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application logs</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Thu Feb 01 13:22:22 EET 2024<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFact category">requests.GetFact</td>
+<td>GetFact.java:22</td>
+<td title="Message">Test  started</td>
+</tr>
+
+<tr>
+<td>495</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFact category">requests.GetFact</td>
+<td>GetFact.java:30</td>
+<td title="Message">Response result printed</td>
+</tr>
+
+<tr>
+<td>2398</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFact category">requests.GetFact</td>
+<td>GetFact.java:36</td>
+<td title="Message">Assertions have been made</td>
+</tr>
+
+<tr>
+<td>2398</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFact category">requests.GetFact</td>
+<td>GetFact.java:39</td>
+<td title="Message">Test finished</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application logs</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Thu Feb 01 13:22:39 EET 2024<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFact category">requests.GetFact</td>
+<td>GetFact.java:22</td>
+<td title="Message">Test  started</td>
+</tr>
+
+<tr>
+<td>445</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFact category">requests.GetFact</td>
+<td>GetFact.java:30</td>
+<td title="Message">Response result printed</td>
+</tr>
+
+<tr>
+<td>2549</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFact category">requests.GetFact</td>
+<td>GetFact.java:36</td>
+<td title="Message">Assertions have been made</td>
+</tr>
+
+<tr>
+<td>2550</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFact category">requests.GetFact</td>
+<td>GetFact.java:39</td>
+<td title="Message">Test finished</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application logs</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Thu Feb 01 13:22:48 EET 2024<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFact category">requests.GetFact</td>
+<td>GetFact.java:22</td>
+<td title="Message">Test  started</td>
+</tr>
+
+<tr>
+<td>548</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFact category">requests.GetFact</td>
+<td>GetFact.java:30</td>
+<td title="Message">Response result printed</td>
+</tr>
+
+<tr>
+<td>2678</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFact category">requests.GetFact</td>
+<td>GetFact.java:36</td>
+<td title="Message">Assertions have been made</td>
+</tr>
+
+<tr>
+<td>2679</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFact category">requests.GetFact</td>
+<td>GetFact.java:39</td>
+<td title="Message">Test finished</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application logs</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Thu Feb 01 13:22:59 EET 2024<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFact category">requests.GetFact</td>
+<td>GetFact.java:22</td>
+<td title="Message">Test  started</td>
+</tr>
+
+<tr>
+<td>573</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFact category">requests.GetFact</td>
+<td>GetFact.java:30</td>
+<td title="Message">Response result printed</td>
+</tr>
+
+<tr>
+<td>2714</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFact category">requests.GetFact</td>
+<td>GetFact.java:36</td>
+<td title="Message">Assertions have been made</td>
+</tr>
+
+<tr>
+<td>2714</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFact category">requests.GetFact</td>
+<td>GetFact.java:39</td>
+<td title="Message">Test finished</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application logs</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Thu Feb 01 13:23:09 EET 2024<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFact category">requests.GetFact</td>
+<td>GetFact.java:22</td>
+<td title="Message">Test  started</td>
+</tr>
+
+<tr>
+<td>705</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFact category">requests.GetFact</td>
+<td>GetFact.java:30</td>
+<td title="Message">Response result printed</td>
+</tr>
+
+<tr>
+<td>2828</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFact category">requests.GetFact</td>
+<td>GetFact.java:36</td>
+<td title="Message">Assertions have been made</td>
+</tr>
+
+<tr>
+<td>2828</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFact category">requests.GetFact</td>
+<td>GetFact.java:39</td>
+<td title="Message">Test finished</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application logs</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Thu Feb 01 13:23:24 EET 2024<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFact category">requests.GetFact</td>
+<td>GetFact.java:22</td>
+<td title="Message">Test  started</td>
+</tr>
+
+<tr>
+<td>571</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFact category">requests.GetFact</td>
+<td>GetFact.java:30</td>
+<td title="Message">Response result printed</td>
+</tr>
+
+<tr>
+<td>2619</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFact category">requests.GetFact</td>
+<td>GetFact.java:36</td>
+<td title="Message">Assertions have been made</td>
+</tr>
+
+<tr>
+<td>2620</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFact category">requests.GetFact</td>
+<td>GetFact.java:39</td>
+<td title="Message">Test finished</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application logs</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Thu Feb 01 13:24:20 EET 2024<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFact category">requests.GetFact</td>
+<td>GetFact.java:22</td>
+<td title="Message">Test  started</td>
+</tr>
+
+<tr>
+<td>550</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFact category">requests.GetFact</td>
+<td>GetFact.java:30</td>
+<td title="Message">Response result printed</td>
+</tr>
+
+<tr>
+<td>3030</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFact category">requests.GetFact</td>
+<td>GetFact.java:36</td>
+<td title="Message">Assertions have been made</td>
+</tr>
+
+<tr>
+<td>3031</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFact category">requests.GetFact</td>
+<td>GetFact.java:39</td>
+<td title="Message">Test finished</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application logs</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Thu Feb 01 13:24:29 EET 2024<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFact category">requests.GetFact</td>
+<td>GetFact.java:22</td>
+<td title="Message">Test  started</td>
+</tr>
+
+<tr>
+<td>575</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFact category">requests.GetFact</td>
+<td>GetFact.java:30</td>
+<td title="Message">Response result printed</td>
+</tr>
+
+<tr>
+<td>2616</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFact category">requests.GetFact</td>
+<td>GetFact.java:36</td>
+<td title="Message">Assertions have been made</td>
+</tr>
+
+<tr>
+<td>2617</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFact category">requests.GetFact</td>
+<td>GetFact.java:39</td>
+<td title="Message">Test finished</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application logs</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Thu Feb 01 13:24:40 EET 2024<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFact category">requests.GetFact</td>
+<td>GetFact.java:22</td>
+<td title="Message">Test  started</td>
+</tr>
+
+<tr>
+<td>544</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFact category">requests.GetFact</td>
+<td>GetFact.java:30</td>
+<td title="Message">Response result printed</td>
+</tr>
+
+<tr>
+<td>2738</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFact category">requests.GetFact</td>
+<td>GetFact.java:36</td>
+<td title="Message">Assertions have been made</td>
+</tr>
+
+<tr>
+<td>2739</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFact category">requests.GetFact</td>
+<td>GetFact.java:39</td>
+<td title="Message">Test finished</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application logs</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Thu Feb 01 13:26:58 EET 2024<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFact category">requests.GetFact</td>
+<td>GetFact.java:22</td>
+<td title="Message">Test  started</td>
+</tr>
+
+<tr>
+<td>832</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFact category">requests.GetFact</td>
+<td>GetFact.java:30</td>
+<td title="Message">Response result printed</td>
+</tr>
+
+<tr>
+<td>3669</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFact category">requests.GetFact</td>
+<td>GetFact.java:37</td>
+<td title="Message">Assertions have been made</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application logs</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Thu Feb 01 13:27:57 EET 2024<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFact category">requests.GetFact</td>
+<td>GetFact.java:22</td>
+<td title="Message">Test  started</td>
+</tr>
+
+<tr>
+<td>193</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFact category">requests.GetFact</td>
+<td>GetFact.java:26</td>
+<td title="Message">Response result printed</td>
+</tr>
+
+<tr>
+<td>2514</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFact category">requests.GetFact</td>
+<td>GetFact.java:33</td>
+<td title="Message">Assertions have been made</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application logs</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Thu Feb 01 13:30:02 EET 2024<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFact category">requests.GetFact</td>
+<td>GetFact.java:22</td>
+<td title="Message">Test  started</td>
+</tr>
+
+<tr>
+<td>223</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFact category">requests.GetFact</td>
+<td>GetFact.java:25</td>
+<td title="Message">Response result printed</td>
+</tr>
+
+<tr>
+<td>2622</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFact category">requests.GetFact</td>
+<td>GetFact.java:32</td>
+<td title="Message">Assertions have been made</td>
+</tr>
+
+<tr>
+<td>2625</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFact category">requests.GetFact</td>
+<td>GetFact.java:34</td>
+<td title="Message">Test finished</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application logs</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Thu Feb 01 13:30:18 EET 2024<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFact category">requests.GetFact</td>
+<td>GetFact.java:22</td>
+<td title="Message">Test  started</td>
+</tr>
+
+<tr>
+<td>203</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFact category">requests.GetFact</td>
+<td>GetFact.java:25</td>
+<td title="Message">Response result printed</td>
+</tr>
+
+<tr>
+<td>2461</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFact category">requests.GetFact</td>
+<td>GetFact.java:32</td>
+<td title="Message">Assertions have been made</td>
+</tr>
+
+<tr>
+<td>2465</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFact category">requests.GetFact</td>
+<td>GetFact.java:34</td>
+<td title="Message">Test finished</td>
+</tr>
+</table>
+<br>
+</body></html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application logs</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Thu Feb 01 13:30:20 EET 2024<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>2488</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFacts category">requests.GetFacts</td>
+<td>GetFacts.java:23</td>
+<td title="Message">Test  started</td>
+</tr>
+
+<tr>
+<td>2491</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFacts category">requests.GetFacts</td>
+<td>GetFacts.java:36</td>
+<td title="Message">Response result printed</td>
+</tr>
+
+<tr>
+<td>3106</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFacts category">requests.GetFacts</td>
+<td>GetFacts.java:42</td>
+<td title="Message">Assertions have been made</td>
+</tr>
+
+<tr>
+<td>3108</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetFacts category">requests.GetFacts</td>
+<td>GetFacts.java:47</td>
+<td title="Message">Test finished</td>
+</tr>
+</table>
+<br>
+</body></html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application logs</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Thu Feb 01 13:30:21 EET 2024<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>3117</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetBreeds category">requests.GetBreeds</td>
+<td>GetBreeds.java:23</td>
+<td title="Message">Test  started</td>
+</tr>
+
+<tr>
+<td>3119</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetBreeds category">requests.GetBreeds</td>
+<td>GetBreeds.java:44</td>
+<td title="Message">Response result printed</td>
+</tr>
+
+<tr>
+<td>3720</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetBreeds category">requests.GetBreeds</td>
+<td>GetBreeds.java:50</td>
+<td title="Message">Assertions have been made</td>
+</tr>
+
+<tr>
+<td>3721</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="requests.GetBreeds category">requests.GetBreeds</td>
+<td>GetBreeds.java:55</td>
+<td title="Message">Test finished</td>
+</tr>
